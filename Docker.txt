@@ -1,0 +1,45 @@
+					Docker
+
+1. Introduction to containers ( In order to learn Docker we need know about containers )
+
+
+Containerization
+
+-->bulit
+-->ship 
+-->run anywhere
+
+				so, what is containerization?
+
+Containerization is a lightweight virtualization technology kind alternative to hypervisor
+
+				Main Advantages of containers..
+
+---->containers are isolated. it donent require any operating system...it will run on host kernals.we can create more containers in single
+ docker.if one application crashes, other will keep on running..without any issues
+
+--->it portable and lightweight operating systems. it only required binaries, denpendencies and libraries to run application..
+so it can be move anywhere
+
+--->faster and resource efficiency-its very fast to boot , because container are very lightweight and start in less than a secoud,
+since the docker ISO file contain only 4MB and they do not required any operating systems.
+
+---> Again resource effciency since container do not required a separate operating system,they use less resource on the host computer..
+
+---> improves scalability and lower cost, by allowing more containers in the environment  without the need for more servers
+
+
+				so, what is Docker on the containers
+
+Docker is open source platform tool designed to mange the containers, it allow us to bulid the application in a container with 
+required libraries,dependencies to run the application, ship the container and run anywhere.
+
+the similer tools like Docker...
+
+#Openshift
+#Amazon EKS
+#google container engine
+#kubernates
+#azure kubernates services
+
+
